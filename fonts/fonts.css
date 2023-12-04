@@ -1,0 +1,41 @@
+.Dana{font-family: DanaFanum;font-weight:200;}
+.DanaBold{font-family: DanaFanum;font-weight:600;}
+.DanaKheyliBold{font-family: DanaFanum;font-weight:900;}
+
+/* Start Custom Fonts CSS */@font-face {
+	font-family: 'DanaFanum';
+	font-style: normal;
+	font-weight: 200;
+	font-display: swap;
+	src: url('./DanaFaNum-Regular.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'DanaFanum';
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+	src: url('./DanaFaNum-Black.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'DanaFanum';
+	font-style: normal;
+	font-weight: 900;
+	font-display: swap;
+	src: url('./DanaFaNum-fat.woff2') format('woff2');
+}
+/* End Custom Fonts CSS */
+
+
+@media only screen and (max-width: 700px) {
+  #m500 {
+    height: 540px;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+#m500 {
+    height: 280px;
+  }
+	
+}
