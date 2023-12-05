@@ -12,7 +12,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
     rel="stylesheet">
 
-  <title>Chain App Dev - App Landing Page HTML5 Template</title>
+  <title>خدمات اینستاگرام</title>
   <script src="https://unpkg.com/@rive-app/canvas@2.7.0"></script>
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -31,6 +31,52 @@
       font-weight: 400;
     }
   </style>
+
+<style>
+  #titlec, #titlec2 {
+      font-size: 72px;
+  background: -webkit-linear-gradient(#f14bba, #200d14);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    }
+ 
+  @media only screen and (max-width: 500px) {
+    #titlec , #titlec2{
+      font-size: 72px;
+  background: -webkit-linear-gradient(#f14bba, #200d14);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    }
+    #canvas2 {
+      display: none;
+    }
+    
+  }
+
+  @media only screen and (min-width: 501px) and (max-width: 768px) {
+    #titlec,#titlec2 {
+      font-size: 72px;
+  background: -webkit-linear-gradient(#f14bba, #200d14);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    }
+    #canvas2 {
+      display: none;
+    }
+  }
+
+  @media only screen and (min-width:992px) {
+    #titlec,#titlec2 {
+     color: white ;
+     background: -webkit-linear-gradient(#ffffff, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+    #canvas2 {
+      display: block;
+    }
+  }
+</style>
 </head>
 
 <body>
@@ -56,7 +102,7 @@
           <nav class="main-nav">
             <!-- ***** Logo Start ***** -->
             <a href="index.html" class="logo">
-              <img src="assets/images/logo.png" alt="Chain App Dev">
+              <img src="assets/images/logo.png" alt="">
             </a>
             <!-- ***** Logo End ***** -->
             <!-- ***** Menu Start ***** -->
@@ -178,9 +224,9 @@
             <div class="col-lg-6 align-self-center">
               <div class="left-content show-up header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
                 <div class="row">
-                  <div class="col-lg-12 ">
-                    <h2 class="text-white">خدمات اینستاگرام</h2>
-                    <p style="font-size: 18px;" class="text-white">
+                  <div class="col-lg-12 " id="titlec">
+                    <h2>خدمات اینستاگرام</h2>
+                    <p style="font-size: 18px;" >
 
                       کلیه خدمات و امور فنی و تکنیکی و امنیت پیج های اینستاگرام با بهترین کیفیت
 
@@ -215,8 +261,8 @@
    
       <div class="row">
         <div class="col-lg-8 offset-lg-2">
-      <div class="text-center wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">  <canvas id="canvas2"></canvas></div>
-          <div class="section-heading  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
+      <div class="text-center wow fadeInDown d-flex justify-content-center" data-wow-duration="1s" data-wow-delay="0.5s">  <canvas id="canvas2">  </canvas></div>
+       <div class="section-heading  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
             <h4> انواع <em>خدمات و سرویس  های</em> مناسب شما</h4>
             <img src="assets/images/heading-line-dec.png" alt="">
             <!-- <p>If you need the greatest collection of HTML templates for your business, please visit <a rel="nofollow"
@@ -319,7 +365,7 @@
         <div class="col-lg-6">
           <div class="right-image">
             <!-- <img src="assets/images/about-right-dec.png" alt=""> -->
-            <canvas id="canvas"></canvas>
+           <canvas id="canvas"></canvas>
             <style>
               #canvas {
 
@@ -780,7 +826,7 @@
           <div class="footer-widget">
             <h4>درباره ما</h4>
             <div class="logo">
-              <img src="assets/images/white-logo.png" alt="">
+              <img src="assets/images/white-logo.png" class="img-fluid" alt="">
             </div>
             <p>از چی بگم برات، انتظار داری چه چیزی از جیب من دراد، جز یه کاغذ پاره رفیق؟ حرف توشه ولی با خودکار سفید.</p>
           </div>
